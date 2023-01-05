@@ -317,7 +317,7 @@ def pairwise_tests(
     # Create col_order
     if parametric == True:
         am, ae, bm, be = "mean(A)", "std(A)", "mean(B)", "std(B)"
-    
+
     if parametric == False:
         am, ae, bm, be = "median(A)", "IQR(A)", "median(B)", "IQR(B)"
 
